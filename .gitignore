@@ -1,7 +1,7 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# dependencies
-node_modules/
+# dependencies (root only: docs/assets/node_modules holds images of the web build)
+/node_modules/
 
 # Expo
 .expo/
