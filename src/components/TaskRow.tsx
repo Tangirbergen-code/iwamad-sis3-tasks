@@ -6,13 +6,15 @@ import { colors } from '../theme/colors';
 interface TaskRowProps {
   task: Task;
   onPress: () => void;
+  onLongPress: () => void;
 }
 
-export default function TaskRow({ task, onPress }: TaskRowProps) {
+export default function TaskRow({ task, onPress, onLongPress }: TaskRowProps) {
   return (
     <Pressable
       role="button"
       onPress={onPress}
+      onLongPress={onLongPress}
       style={({ pressed }) => [styles.row, pressed && styles.rowPressed]}
     >
       <View style={styles.texts}>
