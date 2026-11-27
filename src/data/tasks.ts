@@ -8,26 +8,26 @@ export interface Task {
 export const initialTasks: Task[] = [
   {
     id: 1,
-    title: 'Test the app on my phone',
-    notes: 'Try every screen, the swipe and the long-press in Expo Go.',
+    title: 'Go to the gym',
+    notes: 'A one-hour workout after classes.',
     done: false,
   },
   {
     id: 2,
-    title: 'Take a screenshot for the README',
-    notes: 'Save the task list as screenshots/tasks.png.',
+    title: 'Read 20 pages',
+    notes: 'Continue the current book before bed.',
     done: false,
   },
   {
     id: 3,
-    title: 'Submit SIS 3 in Teams',
-    notes: 'Paste the repository URL, not the Pages URL.',
-    done: false,
+    title: 'Top up my transport card',
+    notes: 'Add money before Monday.',
+    done: true,
   },
   {
     id: 4,
-    title: 'Create the GitHub repository',
-    notes: 'It is public and named iwamad-sis3-tasks.',
-    done: true,
+    title: 'Plan next week',
+    notes: 'Write down deadlines and class times.',
+    done: false,
   },
 ];
