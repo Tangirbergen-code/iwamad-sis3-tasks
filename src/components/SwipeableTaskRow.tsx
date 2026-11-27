@@ -44,6 +44,9 @@ const styles = StyleSheet.create({
   delete: {
     width: 96,
     marginLeft: 8,
+    // 1 point smaller than the row, so no red edge shows around the closed row's corners.
+    marginVertical: 1,
+    marginRight: 1,
     borderRadius: 12,
     alignItems: 'center',
     justifyContent: 'center',
